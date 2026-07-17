@@ -193,3 +193,6 @@ export const Footer: React.FC = () => {
             : 'Proudly created for Volksgrond and my wife by Barend du Plessis.'}
         </p>
       </div>
+      </footer>
+  );
+};
