@@ -185,9 +185,11 @@ export const Footer: React.FC = () => {
       </div>
 
       {/* Copyright Line */}
-      <div className="text-center text-[10px] text-gray-500 font-bold tracking-widest mt-12 uppercase">
-        © {new Date().getFullYear()} Volksgrond (Pty) Ltd. Alle Regte Voorbehou. Suid-Afrikaanse Erfenisdrag.
+      <div className="text-center text-[10px] text-gray-500 font-bold tracking-widest mt-12 uppercase space-y-1.5">
+        <p>© {new Date().getFullYear()} Volksgrond (Pty) Ltd. Alle Regte Voorbehou. Suid-Afrikaanse Erfenisdrag.</p>
+        <p className="text-[#C5A059]">
+          {language === 'af' 
+            ? 'Met trots geskep vir Volksgrond en my vrou deur Barend du Plessis.' 
+            : 'Proudly created for Volksgrond and my wife by Barend du Plessis.'}
+        </p>
       </div>
-    </footer>
-  );
-};
