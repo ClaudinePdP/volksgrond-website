@@ -1,0 +1,8 @@
+{
+  "name": "Volksgrond",
+  "description": "Premium e-commerce platform for Volksgrond, a South African heritage clothing brand, crafted in Afrikaans with dynamic South African English translation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
